@@ -1,0 +1,9 @@
+
+public class Test2_1 {
+	public static void main(String[] args) {
+		int a = 10;
+		int valueName2 = 3;
+		System.out.println(a / valueName2);
+
+	}
+}

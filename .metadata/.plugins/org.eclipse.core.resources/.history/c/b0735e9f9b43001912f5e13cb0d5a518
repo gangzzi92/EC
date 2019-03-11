@@ -1,0 +1,14 @@
+
+public class Test2_1 {
+	public static void main(String[] args) {
+		int ab = 10;
+		int valueName2 = 3;
+		String a = "Abb";
+		char b = 'B';
+		char c = '\t';
+		System.out.println(ab / valueName2);
+		System.out.print(a);
+		System.out.print('\"');
+		System.out.print(b);
+	}
+}

@@ -1,0 +1,11 @@
+
+public class HelloJava {
+	public static void main(String[] args) {
+		System.out.print("Hello Java ");
+		System.out.println("Hello Java");
+		double a = 1;
+		double b = A;
+		double c = a + b;
+		System.out.println(c);
+	}
+}
