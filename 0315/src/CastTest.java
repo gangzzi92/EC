@@ -16,6 +16,11 @@ public class CastTest {
 		int number2 = 3;
 		double 	resultNumber = (double) number1 / (double) number2;
 		System.out.println(resultNumber);
+		
+		
+		
+
+				
 	}
 }
 

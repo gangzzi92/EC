@@ -6,5 +6,11 @@ public class Test1 {
 		System.out.println(a);
 		++a;
 		System.out.println(a);
+		
+		String h = "바보";
+		String g = "멍청";
+		if (h.equals("바보1")) {
+			System.out.println("노");
+		}
 	}
 }
