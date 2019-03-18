@@ -5,20 +5,25 @@ public class homeWork {
 		Random r = new Random();
 		int num = r.nextInt(6) + 1;
 		System.out.println(num);
+//		if (num == 1) {
+//			System.out.println("氅嶋⿳");
+//		} else if (num == 2) {
+//			System.out.println("鞎检樄");
+//		} else if (num == 3) {
+//			System.out.println(num);
+//		} else if (num == 4) {
+//			System.out.println(num);
+//		} else if (num == 5) {
+//			System.out.println(num);
+//		} else if (num == 6) {
+//			System.out.println(num);
+//		}
 		if (num == 1) {
-			System.out.println("港港");
+			System.out.println("氅嶋⿳");
 		} else if (num == 2) {
-			System.out.println("具克");
-		} else if (num == 3) {
-			System.out.println(num);
-		} else if (num == 4) {
-			System.out.println(num);
-		} else if (num == 5) {
-			System.out.println(num);
-		} else if (num == 6) {
+			System.out.println("鞎检樄");
+		} else {
 			System.out.println(num);
 		}
-
 	}
 }
-

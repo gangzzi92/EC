@@ -7,10 +7,10 @@ public class Test1 {
 		++a;
 		System.out.println(a);
 		
-		String h = "πŸ∫∏";
-		String g = "∏€√ª";
-		if (h.equals("πŸ∫∏1")) {
-			System.out.println("≥Î");
+		String h = "Î∞îÎ≥¥";
+		String g = "Î©çÏ≤≠";
+		if (h.equals("Î∞îÎ≥¥1")) {
+			System.out.println("ÎÖ∏");
 		}
 	}
 }

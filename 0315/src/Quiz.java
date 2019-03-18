@@ -4,20 +4,20 @@ import java.util.Scanner;
 public class Quiz {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.println("°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ê°’ì„ ì…ë ¥í•˜ì„¸ìš”.");
 		double num = s.nextDouble();
-		System.out.println("ÀÔ·ÂÇÑ °ªÀº " + num + "ÀÔ´Ï´Ù.");
+		System.out.println("ì…ë ¥í•œ ê°’ì€ " + num + "ì…ë‹ˆë‹¤.");
 		double na = num % 2;
-		System.out.println("³ª¸ÓÁö´Â " + na + "ÀÔ´Ï´Ù.");
+		System.out.println("ë‚˜ë¨¸ì§€ëŠ” " + na + "ì…ë‹ˆë‹¤.");
 		if (na == 0) {
-			System.out.println("Â¦¼öÀÔ´Ï´Ù.");
+			System.out.println("ì§ìˆ˜ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("È¦¼öÀÔ´Ï´Ù.");
+			System.out.println("í™€ìˆ˜ì…ë‹ˆë‹¤.");
 		}
 		Random r = new Random();
 		int randomValue = r.nextInt(100);
-		System.out.println("ÀÓÀÇÀÇ °ªÀº " + randomValue);
-		System.out.println("³ª¸ÓÁö´Â " + (randomValue % 2));
+		System.out.println("ì„ì˜ì˜ ê°’ì€ " + randomValue);
+		System.out.println("ë‚˜ë¨¸ì§€ëŠ” " + (randomValue % 2));
 	}
 	
 }

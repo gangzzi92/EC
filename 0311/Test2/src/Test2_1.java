@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Test2_1 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.println("Ã¹¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+		System.out.println("ì²«ë²ˆì§¸ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		int a = s.nextInt();
-		System.out.println("µÎ¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+		System.out.println("ë‘ë²ˆì§¸ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		int b = s.nextInt();
 		int sum = a + b;
-		System.out.printf("%d + %d = %dÀÔ´Ï´Ù.", a, b, sum);
+		System.out.printf("%d + %d = %dì…ë‹ˆë‹¤.", a, b, sum);
 	}
 }

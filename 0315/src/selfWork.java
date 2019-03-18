@@ -5,7 +5,7 @@ public class selfWork {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		Random r = new Random();
-		System.out.println("¹¬, Âî, ºü¸¦ °í¸£¼¼¿ä .\n ¹¬  = 0, Âî = 1 , ºü  = 2");
+		System.out.println("ë¬µ, ì°Œ, ë¹ ë¥¼ ê³ ë¥´ì„¸ìš” .\n ë¬µ  = 0, ì°Œ = 1 , ë¹   = 2");
 		int user = s.nextInt();
 		int com = r.nextInt(3);
 		int userBef = 0;
@@ -13,18 +13,18 @@ public class selfWork {
 		String userStr = "";
 		String comStr = "";
 		while ((user != 0) && (user != 1) && (user != 2)) {
-			System.out.println("¹¬, Âî, ºü¸¸ °¡´ÉÇÕ´Ï´Ù. \n ¹¬  = 0, Âî = 1 , ºü  = 2");
+			System.out.println("ë¬µ, ì°Œ, ë¹ ë§Œ ê°€ëŠ¥í•©ë‹ˆë‹¤. \n ë¬µ  = 0, ì°Œ = 1 , ë¹   = 2");
 			user = s.nextInt();
 		}
-//Ã³À½¿¡ ºñ±ä°æ¿ì
+//ì²˜ìŒì— ë¹„ê¸´ê²½ìš°
 		while (user == com) {
 			System.out.println("user = " + user + ", com = " + com);
-			System.out.println("ºñ°å½À´Ï´Ù. ´Ù½Ã ³»¼¼¿ä. \n ¹¬  = 0, Âî = 1 , ºü  = 2");
+			System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤. ë‹¤ì‹œ ë‚´ì„¸ìš”. \n ë¬µ  = 0, ì°Œ = 1 , ë¹   = 2");
 			System.out.println(com);
 			user = s.nextInt();
 			com = r.nextInt(3);
 			while ((user != 0) && (user != 1) && (user != 2)) {
-				System.out.println("¹¬, Âî, ºü¸¸ °¡´ÉÇÕ´Ï´Ù. \n ¹¬  = 0, Âî = 1 , ºü  = 2");
+				System.out.println("ë¬µ, ì°Œ, ë¹ ë§Œ ê°€ëŠ¥í•©ë‹ˆë‹¤. \n ë¬µ  = 0, ì°Œ = 1 , ë¹   = 2");
 				user = s.nextInt();
 			}
 
@@ -33,34 +33,34 @@ public class selfWork {
 		while (user != com) {
 			if ((user == 0 && com == 1) || (user == 1 && com == 2) || (user == 2 && com == 0)) {
 				System.out.println("user = " + user + ", com = " + com);
-				System.out.println("ÀÌ°å½À´Ï´Ù. °ø°İÇÏ¼¼¿ä. \n ¹¬  = 0, Âî = 1 , ºü  = 2");
+				System.out.println("ì´ê²¼ìŠµë‹ˆë‹¤. ê³µê²©í•˜ì„¸ìš”. \n ë¬µ  = 0, ì°Œ = 1 , ë¹   = 2");
 				userBef = user;
 				comBef = com;
 				user = s.nextInt();
 				com = r.nextInt(3);
 				while ((user != 0) && (user != 1) && (user != 2)) {
-					System.out.println("¹¬, Âî, ºü¸¸ °¡´ÉÇÕ´Ï´Ù. \n ¹¬  = 0, Âî = 1 , ºü  = 2");
+					System.out.println("ë¬µ, ì°Œ, ë¹ ë§Œ ê°€ëŠ¥í•©ë‹ˆë‹¤. \n ë¬µ  = 0, ì°Œ = 1 , ë¹   = 2");
 					user = s.nextInt();
 				}
 			} else {
 				System.out.println("user = " + user + ", com = " + com);
-				System.out.println("Á³½À´Ï´Ù. ¹æ¾îÇÏ¼¼¿ä. \n ¹¬  = 0, Âî = 1 , ºü  = 2");
+				System.out.println("ì¡ŒìŠµë‹ˆë‹¤. ë°©ì–´í•˜ì„¸ìš”. \n ë¬µ  = 0, ì°Œ = 1 , ë¹   = 2");
 				userBef = user;
 				comBef = com;
 				user = s.nextInt();
 				com = r.nextInt(3);
 				while ((user != 0) && (user != 1) && (user != 2)) {
-					System.out.println("¹¬, Âî, ºü¸¸ °¡´ÉÇÕ´Ï´Ù. \n ¹¬  = 0, Âî = 1 , ºü  = 2");
+					System.out.println("ë¬µ, ì°Œ, ë¹ ë§Œ ê°€ëŠ¥í•©ë‹ˆë‹¤. \n ë¬µ  = 0, ì°Œ = 1 , ë¹   = 2");
 					user = s.nextInt();
 				}
 
 			}
 		}
 		if ((userBef == 0 && comBef == 1) || (userBef == 1 && comBef == 2) || (userBef == 2 && comBef == 0)) {
-			System.out.println("ÀÌ°å½À´Ï´Ù.");
+			System.out.println("ì´ê²¼ìŠµë‹ˆë‹¤.");
 			System.out.println(user + " " + userBef + " " + com + " " + comBef);
 		} else {
-			System.out.println("Á³½À´Ï´Ù.");
+			System.out.println("ì¡ŒìŠµë‹ˆë‹¤.");
 			System.out.println(user + " " + userBef + " " + com + " " + comBef);
 		}
 

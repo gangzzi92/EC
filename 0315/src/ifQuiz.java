@@ -5,41 +5,41 @@ public class ifQuiz {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		Random r = new Random();
-		System.out.println("°¡À§ ¹ÙÀ§ º¸¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ê°€ìœ„ ë°”ìœ„ ë³´ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		int com = r.nextInt(3);
 		int userResult = 0;
 		String user;
 
-		//while ((user != "°¡À§") && (user != "¹ÙÀ§") && (user != "º¸")) {
+		//while ((user != "ê°€ìœ„") && (user != "ë°”ìœ„") && (user != "ë³´")) {
 			user = s.nextLine();
-			if (user.equals("°¡À§")) {
+			if (user.equals("ê°€ìœ„")) {
 				userResult = 0;
-			} else if (user.equals("¹ÙÀ§")) {
+			} else if (user.equals("ë°”ìœ„")) {
 				userResult = 1;
-			} else if (user.equals("º¸")) {
+			} else if (user.equals("ë³´")) {
 				userResult = 2;
 			} else {
-				System.out.println("Àß¸øÀÔ·ÂÇß½À´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä");
+				System.out.println("ì˜ëª»ì…ë ¥í–ˆìŠµë‹ˆë‹¤. ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”");
 			}
 		//}
-		System.out.println(user + "¸¦ ³Â½À´Ï´Ù.");
+		System.out.println(user + "ë¥¼ ëƒˆìŠµë‹ˆë‹¤.");
 
 		String comResult;
 		if (com == 0) {
-			comResult = "°¡À§";
+			comResult = "ê°€ìœ„";
 		} else if (com == 1) {
-			comResult = "¹ÙÀ§";
+			comResult = "ë°”ìœ„";
 		} else {
-			comResult = "º¸";
+			comResult = "ë³´";
 		}
 		if ((userResult == 0 && com == 1) || (userResult == 1 && com == 2) || (userResult == 2 && com == 0)) {
-			System.out.println("Á³½À´Ï´Ù.");
+			System.out.println("ì¡ŒìŠµë‹ˆë‹¤.");
 		} else if ((userResult == 0 && com == 2) || (userResult == 1 && com == 0) || (userResult == 2 && com == 1)) {
-			System.out.println("ÀÌ°å½À´Ï´Ù.");
+			System.out.println("ì´ê²¼ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("ºñ°å½À´Ï´Ù.");
+			System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 		}
 
-		System.out.println("ÄÄÇ»ÅÍ´Â " + comResult + "¸¦ ³Â½À´Ï´Ù.");
+		System.out.println("ì»´í“¨í„°ëŠ” " + comResult + "ë¥¼ ëƒˆìŠµë‹ˆë‹¤.");
 	}
 }
