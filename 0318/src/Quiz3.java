@@ -20,7 +20,7 @@ public class Quiz3 {
 				System.out.print("Enter키를 눌러주세요.");
 				answer = s.nextLine();
 			}
-			int com = r.nextInt(6) + 1;			
+			int com = r.nextInt(6) + 1;
 			System.out.println(com);
 			if (user > com) {
 				System.out.println("You Win!");
@@ -29,8 +29,11 @@ public class Quiz3 {
 			} else {
 				System.out.println("Draw");
 			}
-			System.out.println("계속할까요? y or n");
-			answer = s.nextLine();
+			System.out.println("계속할까요?");
+			while ((!answer.equals("y")) && (!answer.equals("n"))) {
+				System.out.print("y나 n을 입력하세요.");
+				answer = s.nextLine();
+			}
 		}
 	}
 }
